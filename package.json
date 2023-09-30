@@ -1,0 +1,17 @@
+{
+  "name": "mantine-svelte",
+  "version": "0.0.1",
+  "description": "Manint Svelte Libary Ported 1:1",
+  "main": "index.js",
+  "repository": "https://github.com/Mo310/mantine-svelte.git",
+  "author": "Mo310 <mowe310@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "src/*"
+  ],
+  "devDependencies": {
+    "sass": "^1.68.0",
+    "typescript": "^5.2.2"
+  }
+}
