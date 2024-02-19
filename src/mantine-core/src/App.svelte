@@ -1,5 +1,8 @@
-<script lang="ts"></script>
+<script lang="ts">
+  import Box from './core/Box/Box.svelte';
+  import MantineProvider from './core/MantineProvider/MantineProvider.svelte';
+</script>
 
-<div />
-
-<style lang="scss"></style>
+<MantineProvider>
+  <Box />
+</MantineProvider>
